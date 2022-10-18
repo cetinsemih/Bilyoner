@@ -1,0 +1,63 @@
+[
+  {
+    "key": "twotabsearchtextbox",
+    "value": "twotabsearchtextbox",
+    "type": "id"
+  },
+  {
+    "key": "navsearchsubmitbutton",
+    "value": "nav-search-submit-button",
+    "type": "id"
+  },
+  {
+    "key": "spccaccept",
+    "value": "sp-cc-accept",
+    "type": "id"
+  },
+  {
+    "key": "addtocartbutton",
+    "value": "add-to-cart-button",
+    "type": "id"
+  },
+  {
+    "key": "navcart",
+    "value": "nav-cart",
+    "type": "id"
+  },
+  {
+    "key": "continue",
+    "value": "continue",
+    "type": "id"
+  },
+  {
+    "key": "proceedToRetailCheckout",
+    "value": "proceedToRetailCheckout",
+    "type": "name"
+  },
+  {
+    "key": "firstmouse",
+    "value": "//*[@id=\"search\"]/div[1]/div[1]/div/span[3]/div[2]/div[2]/div/span/div/div/div/div/div[2]/div[1]/div/div/span/a/div",
+    "type": "xpath"
+  },
+  {
+    "key": "delete",
+    "value": "//input[@value=\"Delete\"]",
+    "type": "xpath"
+  },
+  {
+    "key": "checkemptybasket",
+    "value": "//h1[contains(text(),\"Your Amazon Cart is empty.\")]",
+    "type": "xpath"
+  },
+  {
+    "key": "checkstock",
+    "value": "//span[contains(text(),\"In Stock.\")]",
+    "type": "xpath"
+  }
+  ,
+  {
+    "key": "checkbasketwarning",
+    "value": "//h1[contains(text(),\"Added to Cart\")]",
+    "type": "xpath"
+  }
+]
