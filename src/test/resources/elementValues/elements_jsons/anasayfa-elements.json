@@ -1,0 +1,72 @@
+[
+  {
+    "key": "AnaEkran-KaracaLogosu",
+    "value": "div[class='logo']>a",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-SepetLinki",
+    "value": "div[id='account_header']>div[class='myHeaderCart']>a>span[class='imgText']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-NavHaliLinki",
+    "value": "nav>a[href='/halilar']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-EnCokSatanCeyizPaketleri",
+    "value": "section>h2[class='sHeadline']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-EnAvantajliFirsatlar",
+    "value": "section[id='en-avantajli-firsatlar']>h2",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-CokSatanlar",
+    "value": "div[id='vl-widget-container']>div[class='vl-header']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-YildizliFirsatÜrünleri",
+    "value": "section[class='chosen-section']>h2",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-YeniEklenenler",
+    "value": "div[id='vl-widget-container-III']>div[class='vl-header']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-EssizTasarimlar",
+    "value": "section[class='subslider-section']>h2",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-ListenizdekiHerkesIcinHarikaHediyeler",
+    "value": "section>p[class='sHeadline']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-PopulerKoleksiyonlar",
+    "value": "section>h2[class='sHeadline']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-Markalar",
+    "value": "section>h2[class='sHeadline']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-FooterKolayIade",
+    "value": "footer>div>div>div>ul>li>a[href='https://yeni.krc.com.tr/yardim#help1282']",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-FooterUrunKatalogu",
+    "value": "footer>div>div>div>ul>li>a[href='https://yeni.krc.com.tr/information/catalog']",
+    "type": "css"
+  }
+]

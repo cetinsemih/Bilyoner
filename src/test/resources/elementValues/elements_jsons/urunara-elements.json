@@ -1,0 +1,72 @@
+[
+  {
+    "key": "AnaEkran-AramaAlanı",
+    "value": "div[class='head line2']>div>form[id='mobile-search']>input",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-AramaButonu",
+    "value": "#mobile-search > button",
+    "type": "css"
+  },
+  {
+    "key": "AramaEkranı-AramaSayfası",
+    "value": "div[class='filters']>div[class='productName']>h1[class='inherit']",
+    "type": "css"
+  },
+  {
+    "key": "AramaEkranı-GidilenUrun",
+    "value": "img[src='https://6rk3rbju.rocketcdn.com/rcman/cw250h250q90gm/image/banner/karaca/333/ty/153.21.01.0189-1_0.jpg']",
+    "type": "css"
+  },
+  {
+    "key": "UrunSayfası-GidilenUrunAdı",
+    "value": "div[class=\"info d-flex\"]>div>div>div>h1",
+    "type": "css"
+  },
+  {
+    "key": "UrunSayfası-SepeteEkle",
+    "value": "div[class='myHeaderCart']>a>span",
+    "type": "css"
+  },
+  {
+    "key": "UrunSayfası-SepeteGit",
+    "value": "#multipleAddCart > div > div.krc-modal-body > div.btns > button.krc-btn.krc-btn-full",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-UrunAdediKısmı",
+    "value": "div[class='col-sm-12 col-lg-8 left']>div[class='orderPreview']>div>span",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-UrunAdetiArttır",
+    "value": "button[name='positive']",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-UrunAdetiAzalt",
+    "value": "button[name='negative']",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-UrunAdeti",
+    "value": "div[class='right']>div[class='count']>input[id='spinner']",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-SepetiBoşaltLink",
+    "value": "div[class='orderPreview']>div[class='head']>a",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-SepetiBoşaltPopUp",
+    "value": "div[class='modal-header']>h4[id='modal_modalClearCartLabel']",
+    "type": "css"
+  },
+  {
+    "key": "SepetimSayfası-SepetiBoşaltButton",
+    "value": "#modalClearCart > div > div > div.modal-body > div > div > button.button.krc-btn.krc-btn-border.closeModal",
+    "type": "css"
+  }
+]
