@@ -1,0 +1,27 @@
+[
+  {
+    "key": "AnaEkran-AramaAlanı",
+    "value": "div[class='head line2']>div>form[id='mobile-search']>input",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-AramaButonu",
+    "value": "#mobile-search > button",
+    "type": "css"
+  },
+  {
+    "key": "AnaEkran-NavHaliLinki",
+    "value": "nav>a[href='/halilar']",
+    "type": "css"
+  },
+  {
+    "key": "AramaSayfası-FiltreSalonCheckboxi",
+    "value": "label[for='cbx-filter-salon-1-73894']>div>i",
+    "type": "css"
+  },
+  {
+    "key": "AramaSayfası-FiltreSalonOdaHalisiCheckboxi",
+    "value": "label[for=\"cbx-filter-salonoda-halisi-0-52\"]>div>i",
+    "type": "css"
+  }
+]

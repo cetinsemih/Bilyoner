@@ -1,0 +1,29 @@
+# Ürün Arama Alanında Bir Ürün Arayıp Seçilen Ürünü Sepete Ekleyip Adetini Arttırıp Azaltma ve Sepeti Boşaltma
+* Check if element "AnaEkran-AramaAlanı" exists
+* Click to element "AnaEkran-AramaAlanı"
+* Write value "Çanta" to element "AnaEkran-AramaAlanı"
+* Click to element "AnaEkran-AramaButonu"
+* Check if element "AramaEkranı-AramaSayfası" contains text "'Çanta' için arama sonuçları"
+* Check if element "AramaEkranı-GidilenUrun" exists
+* Click to element "AramaEkranı-GidilenUrun"
+* Check if element "UrunSayfası-GidilenUrunAdı" exists
+* Check if element "UrunSayfası-GidilenUrunAdı" contains text "Home Nefes Bez Çanta"
+* Check if element "LoginEkranı-CookieButton" exists
+* Click to element "LoginEkranı-CookieButton"
+* Check if element "UrunSayfası-SepeteEkle" exists
+* Click to element "UrunSayfası-SepeteEkle"
+* Check if element "UrunSayfası-SepeteGit" exists
+* Click to element "UrunSayfası-SepeteGit"
+* Check if element "SepetimSayfası-UrunAdediKısmı" exists
+* Check if element "SepetimSayfası-UrunAdediKısmı" contains text "Sepetim (1 Ürün)"
+* Click to element "SepetimSayfası-UrunAdetiArttır"
+* Check if element "SepetimSayfası-UrunAdeti" exists
+* Check if "SepetimSayfası-UrunAdeti" element's attribute "value" equals to the value "2"
+* Check if element "SepetimSayfası-UrunAdetiAzalt" exists
+* Click to element "SepetimSayfası-UrunAdetiAzalt"
+* Check if element "SepetimSayfası-SepetiBoşaltLink" exists
+* Click to element "SepetimSayfası-SepetiBoşaltLink"
+* Check if element "SepetimSayfası-SepetiBoşaltPopUp" exists
+* Check if element "SepetimSayfası-SepetiBoşaltPopUp" contains text "Sepeti Boşalt"
+* Check if element "SepetimSayfası-SepetiBoşaltButton" exists
+* Click to element "SepetimSayfası-SepetiBoşaltButton"
