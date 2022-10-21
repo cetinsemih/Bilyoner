@@ -1,0 +1,15 @@
+[
+{
+  "key": "carkkontrol",
+  "value": "//*[@id='close-button-1543162318000']/span",
+  "type": "xpath"
+},{
+  "key": "popupkapat",
+  "value": "//*[@class='acceptcookies']",
+  "type": "xpath"
+},{
+  "key": "search",
+  "value": "(//form[@id='mobile-search']/input[@name='q'])[2]",
+  "type": "xpath"
+}
+]

@@ -1,0 +1,26 @@
+# Karaca canli sayfasına gidilir
+* "https://www.karaca.com/" adresine git
+* "3" saniye bekle
+
+# Karaca test sayfasına gidilir
+* "https://yeni.krc.com.tr/" adresine git
+* "3" saniye bekle
+
+# Adres kontrolu yapilir
+* Şuanki URL "https://www.karaca.com/" değerini içeriyor mu kontrol et
+
+# Cerezler kapatilir
+* "popupkapat" elementini kontrol et
+* "popupkapat" elementine tikla
+
+# Search alanina tiklanilir ve <search> kelimesi aratilir
+* "1" saniye bekle
+* "search" elementini kontrol et
+* "search" elementine tikla
+* "1" saniye bekle
+* <search> textini "search" li yere yaz
+* Elemente ENTER keyi yolla "search"
+* "1" saniye bekle
+* Şuanki URL "https://www.karaca.com/product/search" değerini içeriyor mu kontrol et
+
+
