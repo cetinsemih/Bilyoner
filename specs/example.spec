@@ -15,5 +15,5 @@ tags:karaca
 ## karacaProd
 tags:karacaProd
 * "2" saniye bekle
-* Go to "https://yeni.krc.com.tr/" address
+* Go to "https://www.karaca.com/" address
 * "2" saniye bekle
