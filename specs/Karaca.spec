@@ -1,9 +1,9 @@
 Karaca Web Test
 ===========================
 
-Karaca Test Senaryosu
+Karaca Prod Senaryosu
 ---------------------------
-Tags:Canli_karaca
+tags:Canli_karaca
 * Karaca canli sayfasına gidilir
 * Adres kontrolu yapilir
 * Cerezler kapatilir
@@ -12,7 +12,7 @@ Tags:Canli_karaca
 
 Karaca Test Senaryosu
 ---------------------------
-Tags:Test_karaca
+tags:Test_karaca
 * Karaca test sayfasına gidilir
 
 
