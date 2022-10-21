@@ -8,7 +8,7 @@ tags:addProductToBasket
 
 ## Add Product to Basket2
 tags:karaca
-* "1" saniye bekle
+* "2" saniye bekle
 * Go to "https://yeni.krc.com.tr/" address
 * "2" saniye bekle
 
