@@ -1,0 +1,192 @@
+[
+  {
+    "key": "signUpButton",
+    "value": "a[id='signin2']",
+    "type": "css"
+  },
+  {
+    "key": "signUseName",
+    "value": "input[id='sign-username']",
+    "type": "css"
+  },
+  {
+    "key": "signPassword",
+    "value": "input[id='sign-password']",
+    "type": "css"
+  },
+  {
+    "key": "PopUpsignUpButton",
+    "value": "div[class='modal-content'] button[onclick='register()']",
+    "type": "css"
+  },
+
+  {
+    "key": "logInButton",
+    "value": "a[id='login2']",
+    "type": "css"
+  },
+  {
+    "key": "loginUseName",
+    "value": "input[id='loginusername']",
+    "type": "css"
+  },
+  {
+    "key": "loginPassword",
+    "value": "input[id='loginpassword']",
+    "type": "css"
+  },
+  {
+    "key": "PopUploginButton",
+    "value": "div[class='modal-content'] button[onclick='logIn()']",
+    "type": "css"
+  }
+,
+  {
+    "key": "profileUserName",
+    "value": "a[id='nameofuser']",
+    "type": "css"
+  }
+,
+  {
+    "key": "anaSayfaHTCOneM9",
+    "value": "//div[@id='tbodyid']//a[text()='HTC One M9']",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "urunDetaySayfasiUrunAdi",
+    "value": "div[id='tbodyid']>h2[class='name']",
+    "type": "css"
+  }
+,
+  {
+    "key": "urunDetaySayfasiUrunFiyat",
+    "value": "div[id='tbodyid']>h3[class='price-container']",
+    "type": "css"
+  }
+,
+  {
+    "key": "urunDetaySayfasiUrunAciklama",
+    "value": "div[id='tbodyid'] div[id='myTabContent'] p",
+    "type": "css"
+  }
+,
+  {
+    "key": "urunDetaySayfasiAddToCart",
+    "value": "a[onclick*='addToCart']",
+    "type": "css"
+  }
+,
+  {
+    "key": "HeaderCart",
+    "value": "a[id='cartur']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SepetEkranıUrunAdı",
+    "value": "//tbody[@id='tbodyid']/tr/td[2]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "SepetEkranıUrunFiyatı",
+    "value": "//tbody[@id='tbodyid']/tr/td[3]",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "SepetEkranıSepetTutarı",
+    "value": "div[class='panel-heading'] h3",
+    "type": "css"
+  }
+,
+  {
+    "key": "SepetEkranıSiparişVerButonu",
+    "value": "button[class='btn btn-success']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuToplamFiyat",
+    "value": "label[id='totalm']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuName",
+    "value": "input[id='name']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuCountry",
+    "value": "input[id='country']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuCity",
+    "value": "input[id='city']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuCard",
+    "value": "input[id='card']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuMonth",
+    "value": "input[id='month']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuYear",
+    "value": "input[id='year']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisFormuKapatButonu",
+    "value": "//button[@onclick='purchaseOrder()']/preceding-sibling::button[text()='Close']",
+    "type": "xpath"
+  }
+,
+  {
+    "key": "SiparisFormuSatınAlButonu",
+    "value": "button[onclick='purchaseOrder()']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisOnayMesajıOnayLogo",
+    "value": "div[class='sweet-alert  showSweetAlert visible'] div[class='sa-placeholder']",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisOnayMesajıİşlemBaşarılıMesajı",
+    "value": "div[class='sweet-alert  showSweetAlert visible'] h2",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisOnayMesajıSiparişDetayı",
+    "value": "div[class='sweet-alert  showSweetAlert visible'] p",
+    "type": "css"
+  }
+,
+  {
+    "key": "SiparisOnayMesajıOkButonu",
+    "value": "//div[@class='sweet-alert  showSweetAlert visible']//button[text()='OK']",
+    "type": "xpath"
+  }
+
+
+
+
+
+]
