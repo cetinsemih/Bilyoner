@@ -1,0 +1,115 @@
+# Bilyoner test sayfasına gidilir
+* "https://www.demoblaze.com/" adresine git
+* Sayfa uzerinde "signUpButton" objesi goruntulenene kadar bekle
+* Şuanki URL "www.demoblaze.com" değerini içeriyor mu kontrol et
+
+# <userName> ve <sifre> ile kayıt ol
+* "signUpButton" elementine tikla
+* Sayfa uzerinde "signUseName" objesi goruntulenene kadar bekle
+* <userName> textini "signUseName" elemente yaz
+* <sifre> textini "signPassword" elemente yaz
+* "PopUpsignUpButton" elementine tikla
+* "1" saniye bekle
+* Uyari penceresinde "Sign up successful." yazisi var mi? Kontrol edilir.
+* Uyarıyı kabul et.
+* "signUpButton" elementini kontrol et
+
+# Üretilen Kullanıcı ile kayıt ol
+* "signUpButton" elementine tikla
+* Sayfa uzerinde "signUseName" objesi goruntulenene kadar bekle
+*Create 'UserName' and 'Password'
+* Write created 'UserName' to element "signUseName"
+* Write created 'Password' to element "signPassword"
+* "PopUpsignUpButton" elementine tikla
+* "1" saniye bekle
+* Uyari penceresinde "Sign up successful." yazisi var mi? Kontrol edilir.
+* Uyarıyı kabul et.
+* "signUpButton" elementini kontrol et
+
+# <userName> ve <sifre> ile Login ol
+* "logInButton" elementine tikla
+* Sayfa uzerinde "loginUseName" objesi goruntulenene kadar bekle
+* <userName> textini "loginUseName" elemente yaz
+* <sifre> textini "loginPassword" elemente yaz
+* "PopUploginButton" elementine tikla
+* Sayfa uzerinde "profileUserName" objesi goruntulenene kadar bekle
+* "Welcome " metni ile <userName> metnini birleştir, sonra tut
+* "profileUserName" elementi tutulan değeri içeriyor mu kontrol et
+
+# Üretilen Kullanıcı ile Login ol
+* "logInButton" elementine tikla
+* Sayfa uzerinde "loginUseName" objesi goruntulenene kadar bekle
+* Write created 'UserName' to element "loginUseName"
+* Write created 'Password' to element "loginPassword"
+* "PopUploginButton" elementine tikla
+* Sayfa uzerinde "profileUserName" objesi goruntulenene kadar bekle
+* "profileUserName" elementi tutulan değeri içeriyor mu kontrol et
+
+
+# Ana Sayfa'dan 'HTC One M9' ürününe tıklanır
+* "anaSayfaHTCOneM9" alanına kaydır
+* "anaSayfaHTCOneM9" elementine tikla
+* Şuanki URL "https://www.demoblaze.com/prod.html?idp_=7" değerini içeriyor mu kontrol et
+* Sayfa uzerinde "urunDetaySayfasiUrunAdi" objesi goruntulenene kadar bekle
+
+# 'HTC One M9' Urun detay ekranı alan kontrolü yapılır
+* "urunDetaySayfasiUrunAdi" elementi "HTC One M9" değerini içeriyor mu kontrol et
+* "urunDetaySayfasiUrunFiyat" elementi "$700" değerini içeriyor mu kontrol et
+* "urunDetaySayfasiUrunAciklama" elementi "The HTC One M9 is powered by 1.5GHz octa-core Qualcomm Snapdragon 810 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage that can be expanded up to 128GB via a microSD card." değerini içeriyor mu kontrol et
+
+# Ürün Detay Sayfasında 'Add To Cart' butonuna tıklanır
+* "urunDetaySayfasiAddToCart" elementini kontrol et
+* "urunDetaySayfasiAddToCart" elementine tikla
+* Uyari penceresinde "Product added." yazisi var mi? Kontrol edilir.
+* Uyarıyı kabul et.
+
+# Header üzerinden 'Cart' butonuna tıklanır
+* "HeaderCart" elementini kontrol et
+* "HeaderCart" elementine tikla
+* Şuanki URL "www.demoblaze.com/cart" değerini içeriyor mu kontrol et
+
+# Seper ekranında 'HTC One M9' ürününün bilgilerinin olduğu doğrulanır.
+* "SepetEkranıUrunAdı" elementi "HTC One M9" değerini içeriyor mu kontrol et
+* "SepetEkranıUrunFiyatı" elementi "700" değerini içeriyor mu kontrol et
+* "SepetEkranıSepetTutarı" elementi "700" değerini içeriyor mu kontrol et
+* "SepetEkranıSiparişVerButonu" elementini kontrol et
+
+# 'Sipariş Ver' butonuna tıklanır
+* "SepetEkranıSiparişVerButonu" elementine tikla
+* Sayfa uzerinde "SiparisFormuName" objesi goruntulenene kadar bekle
+
+# 'Sipariş Formu' tutar kontrolü
+* "SiparisFormuToplamFiyat" elementi "700" değerini içeriyor mu kontrol et
+
+# <Name>,<Country>,<City>,<Card>,<Month>,<Year> Bilgileri ile 'Sipariş Formu' doldurulur.
+* <Name> textini "SiparisFormuName" elemente yaz
+* <Country> textini "SiparisFormuCountry" elemente yaz
+* <City> textini "SiparisFormuCity" elemente yaz
+* <Card> textini "SiparisFormuCard" elemente yaz
+* <Month> textini "SiparisFormuMonth" elemente yaz
+* <Year> textini "SiparisFormuYear" elemente yaz
+* "SiparisFormuSatınAlButonu" elementine tikla
+
+# Sipariş başarılı mesaj penceresi kontrol edilir.<Name>,<Card>
+* "SiparisOnayMesajıOnayLogo" elementini kontrol et
+* "SiparisOnayMesajıİşlemBaşarılıMesajı" elementi "Thank you for your purchase!" değerini içeriyor mu kontrol et
+* "SiparisOnayMesajıSiparişDetayı" elementi <Name> değerini içeriyor mu kontrol et
+* "SiparisOnayMesajıSiparişDetayı" elementi "700" değerini içeriyor mu kontrol et
+* "SiparisOnayMesajıSiparişDetayı" elementi <Card> değerini içeriyor mu kontrol et
+* "SiparisOnayMesajıOkButonu" elementini kontrol et
+
+# Sipariş Başarılı mesaj penceresinde 'OK' butonuna tıklanılır.
+* "SiparisOnayMesajıOkButonu" elementine tikla
+
+# Ana Sayfa'nın açıldığı görülür.<UserName>
+* "profileUserName" elementi tutulan değeri içeriyor mu kontrol et
+
+
+
+
+
+
+
+
+
+
